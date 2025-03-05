@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+.my_navbar{
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 100;
+}
+
+.logo img{
+    height: 80px;
+    width: 120px;
+}
+
+.my_navbar .nav-link {
+    border-bottom: 1.5px solid transparent;
+    transition: padding-bottom .3s ease-in-out, border-color 3s ease;
+}
+
+.my_navbar .nav-link:hover{
+    padding-bottom: 15px;
+    border-bottom-color:  white;
+}
+.part1{
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.288)) , url("../img/Base-1.jpg") center center fixed no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+.part1-title{
+    font-size: 56px;
+    font-weight: 900px;
+    color: white;
+}
+.part1-desc{
+    font-size: 16px;
+    font-weight: 500px;
+    color: rgb(255, 255, 0);
+}
+.part2{
+    background-color: yellow;
+}
+
+.part4{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+.part4-band{
+    background-color: rgb(255, 255, 0);
+}
+  
